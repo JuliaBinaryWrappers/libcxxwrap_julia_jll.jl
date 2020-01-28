@@ -1,6 +1,6 @@
 name = "libcxxwrap_julia_jll"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
-version = "0.6.5+0"
+version = "0.6.6+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
