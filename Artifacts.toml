@@ -1,76 +1,196 @@
 [[libcxxwrap_julia]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "74f0e6a634f203f430a7fa9709d44de97eb94cf9"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "52a4721e32d03deb7d266b8837c8ecd1413481d8"
 libc = "glibc"
 os = "linux"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "71f8a32f5e576307464d72cde8e097e0daa88667ed1e4132868801bf57f97e82"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "58089cc153de622b150bfa1d97537716f617199f33d3057ec4d5eb0c7fd738e1"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.aarch64-linux-gnu-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "889af6f1195eee47c3b6ae6f25b1e6ec3a44669c"
+libc = "glibc"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "595bafd1945d2c845de0dd3c45d7d19565135fa3cc28dca889695656229edd6c"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.aarch64-linux-gnu-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "71ab2096e09df544f4b2266882c47cfa2374c2d4"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "cdb837bf1b6604c8b3a75f576077d1f498f23bc2668f7c794b64c0b8f60669fb"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.aarch64-linux-musl-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d2ecbfd20a0eaa912cfa560753324573473b7b72"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "27968d84d48029789ad4b91cd9e4660ba51b4c7e67892ad1eb0ccd737b2992fd"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.aarch64-linux-musl-cxx11.tar.gz"
 [[libcxxwrap_julia]]
 arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "097c7b8225a4cde6810c9521f8764b85ee698a2f"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "95305f8506befafa368caa2f5f45c86172ec5362"
 libc = "glibc"
 os = "linux"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "eb8fe118694b3cc0c90d3999d2fddb8a0e90c25e949340549ff6aa34ae8ab103"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "4feba83cfc8fec439d6d6672e6f03cee323bd5b3d00cd50eb1c619254e2fadf7"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[libcxxwrap_julia]]
-arch = "i686"
+arch = "armv7l"
+call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "69fa9ffbf61c1bd0ac2e6d152358fb1d45a5f4f2"
+git-tree-sha1 = "84cea09e9dbf6c1122fc51f2f86a8921acaf160b"
 libc = "glibc"
 os = "linux"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "41f63e45ba73a94c7d67f1c58dd23fb8a1e5d54f26dcdc76a111fc8cb117dc76"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "1fc0b635355168c00fcbe571d4be9c06208a0e04f41fe352176cc9069745b238"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8b877f87041b14c586c63901f3475e04ba734797"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "59fdae2bf419885ace48032094194b23c7130a3634c51b16a3a19de97ba242f7"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2169b8bd167ada4eae23cec597903df5612bcfd9"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "ecbbda5a9695aebd9c8e96dc1f6c79fe944fea401f8051d61c461ceef0299a98"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "96309e7b7a19767bd0403726714659e3a8aed7f6"
+libc = "glibc"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "a0d6be2a2a9ec835d542c63e8c9ffdefe65caf37e2d05ea69a8bf1fb8325cd86"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.i686-linux-gnu-cxx03.tar.gz"
 [[libcxxwrap_julia]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "39c90bbc296bee246430f125b09750c85c849343"
+git-tree-sha1 = "c4856b8be682a94d9a8877b1d30a7004047a6c94"
+libc = "glibc"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "f6cb555e418840c30172b3110ed11f36a6b611bc6e42feeed81b0c9413ef653b"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.i686-linux-gnu-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a0885167c432315e4fb5cfda9bd9b80c32da316d"
 os = "windows"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "3054fa1206826fbe4f01cf72760897800d7fab564c00bdff5df9a8db14893220"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "9d22551759e076cb6a86bae9ed5bfb6adaac80fe10c563711faf90c5870db1c0"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.i686-w64-mingw32-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7650ba5c09a7b0fc947b68658a70281af51e1e78"
+os = "windows"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "d24dac70291010e248491d3b1b0167ae3c638a338c72801d5f45272da8dbe190"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.i686-w64-mingw32-cxx11.tar.gz"
 [[libcxxwrap_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6017255205dc4fbf4d962903a855a0c631f092dc"
+git-tree-sha1 = "f1047f6745615d357f242e951767beffac347923"
 os = "macos"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "5c3659ceb946fd4fc647b9a2af48dc6c95d2d5600649d752a1512e1bd7122d59"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "98ba67edc52ac2d70de3e49aeeca9b9bf31f7dc86211aa7a085da87c94984b52"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-apple-darwin.tar.gz"
 [[libcxxwrap_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fd5dfb5dee87c41c238d98bd7ff2fdd4f307e824"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9a51318d347c02b899813ea801303f14b4ddf66c"
 libc = "glibc"
 os = "linux"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "cc0241496fccd45dff89bf95d4b83d451e8efe00b13b086c718ea925f00b29ad"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "cd1caa59219ae571204194f24c97cd02d1228f10656cd147acbb64da9cf13675"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[libcxxwrap_julia]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1445c8dd0b519014f23cbccc5ef1a36c393ad35d"
+git-tree-sha1 = "f85e62cc5c56304fb619c034d0b51c7cf51ca575"
+libc = "glibc"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "e239584612300f02be7256f97b12b06975914844c5800ebbd20a8897979e0828"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-linux-gnu-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9c720022117e5ff1b2c9ffe0659252c9c23df062"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "2d1d7994869a69647ccf6eb61e3edc44640380c150d048f0a728cdb009bc239d"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-linux-musl-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6e78970e2f4178d63fb98c5feb27d9e28d8e6983"
+libc = "musl"
+os = "linux"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "0c3098d6e876fad0fdfdf56f5e8ee342b535373c89a0084137c964ce9050e38d"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-linux-musl-cxx11.tar.gz"
+[[libcxxwrap_julia]]
+arch = "x86_64"
+git-tree-sha1 = "630f72a645df3ee70c999bbd197f1d7cb3acaf42"
 os = "freebsd"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "8bbbd52acb67a270a1c718aea8e4b8c0bf671192dce2714a5276cbbbdf740335"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "c973968cee0e24b481e2cd15317e927ed11f663d2f8c2f21fb832e612d3a4bd3"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-unknown-freebsd.tar.gz"
 [[libcxxwrap_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "dac68fb2ef8659814ad2c5a606b2a1aa22d451ff"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "22b7a8cc970a2357d7f85996f8d71032ea65fe7b"
 os = "windows"
 
     [[libcxxwrap_julia.download]]
-    sha256 = "35f62308fa2c84f4df66e54e4f1bc604eabf318e37a969a055c2f3dc71fc637d"
-    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.0+0/libcxxwrap_julia.v0.8.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "60b81ce712f484e28bdc43b88528af9ed49baed60b31d619fae6ab451fb8e776"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[libcxxwrap_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7574329e62fa176460b4017fcf509d58b5d0b88f"
+os = "windows"
+
+    [[libcxxwrap_julia.download]]
+    sha256 = "c3386348c8277b69f50060fd4f3b703405153f28c7055f691bf497f64c1c6773"
+    url = "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl/releases/download/libcxxwrap_julia-v0.8.2+0/libcxxwrap_julia.v0.8.2.x86_64-w64-mingw32-cxx11.tar.gz"
