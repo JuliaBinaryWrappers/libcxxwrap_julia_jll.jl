@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libcxxwrap_julia,
-        "lib/libcxxwrap_julia.0.12.5.dylib",
+        "lib/libcxxwrap_julia.0.13.0.dylib",
         RTLD_GLOBAL,
     )
 
